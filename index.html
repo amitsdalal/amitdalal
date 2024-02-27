@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Dalal - CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #34495e;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: background-color 0.5s;
+        }
+
+        h1, h2 {
+            color: #ecf0f1;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #bdc3c7;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amit Dalal</h1>
+        <p>Python Developer | Kubernetes Enthusiast | Linux Kernel Patch Contributor</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Welcome to my personal landing page! I am a passionate Python developer with expertise in Kubernetes,
+            Docker, Linux, Ubuntu, kernel patching, CI/CD, automation, and scripting. I thrive in ensuring site reliability
+            and love working on challenging projects that push my skills to new heights.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Kubernetes</li>
+            <li>Docker</li>
+            <li>Linux</li>
+            <li>Ubuntu</li>
+            <li>Kernel Patching</li>
+            <li>CI/CD</li>
+            <li>Automation</li>
+            <li>Scripting</li>
+            <li>Site Reliability</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <p>Check out some of my exciting projects below:</p>
+        <button onclick="toggleProjects()">Toggle Projects</button>
+        <ul id="projectsList" style="display: none;">
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 Amit Dalal | <a href="mailto:your@email.com">your@email.com</a>
+    </footer>
+
+    <script>
+        function toggleProjects() {
+            var projectsList = document.getElementById('projectsList');
+            projectsList.style.display = (projectsList.style.display === 'none') ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
