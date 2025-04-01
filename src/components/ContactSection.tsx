@@ -1,5 +1,5 @@
 
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 
 export function ContactSection() {
   return (
@@ -14,7 +14,7 @@ export function ContactSection() {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a 
-              href="mailto:ping@amitdalal.com" 
+              href="mailto:ping@amitdalal.com?subject=Contact%20via%20Website" 
               className="inline-flex items-center gap-3 px-8 py-4 rounded-lg apple-card hover:bg-card border border-border/50 transition-colors"
             >
               <Mail className="h-5 w-5 text-primary" />
