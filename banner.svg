@@ -1,0 +1,15 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Soft light background -->
+  <rect width="1200" height="630" fill="#f5f5f7" />
+  
+  <!-- Main text -->
+  <text x="600" y="280" font-family="Imprima, Arial, sans-serif" font-size="60" text-anchor="middle" fill="#1d1d1f">
+    Amit Dalal
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="350" font-family="Imprima, Arial, sans-serif" font-size="30" text-anchor="middle" fill="#86868b">
+    Cloud Engineer / DevOps / Automation
+  </text>
+</svg>
