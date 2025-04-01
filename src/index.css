@@ -74,7 +74,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background text-foreground font-sans transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
   
@@ -115,7 +115,7 @@
   }
   
   .apple-shadow {
-    @apply shadow-apple;
+    @apply shadow-apple transition-shadow duration-300;
   }
   
   .apple-card {
