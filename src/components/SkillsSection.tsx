@@ -1,13 +1,17 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ExternalLink } from "lucide-react";
 
 const skills = {
   "Cloud & Infrastructure": [
-    "AWS", "GCP", "Kubernetes", "EKS", "Docker", "Terraform", "Linux"
+    "AWS", "GCP", "Linux", "Kubernetes", "EKS"
   ],
-  "DevOps & Automation": [
-    "Ansible", "GitLab CI/CD", "Helm", "Jenkins", "FastAPI"
+  "DevOps & CI/CD": [
+    "Docker", "GitLab CI/CD", "Jenkins", "FastAPI"
+  ],
+  "Infrastructure as Code": [
+    "Terraform", "Ansible", "Helm"
   ],
   "Databases & Technologies": [
     "Redis", "PostgreSQL", "MongoDB", "Python", "Bash"
@@ -20,7 +24,7 @@ export function SkillsSection() {
       <div className="container">
         <h2 className="section-title">Technical Skills & Tools</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {Object.entries(skills).map(([category, items]) => (
             <Card key={category} className="apple-card group">
               <CardHeader>
@@ -45,11 +49,15 @@ export function SkillsSection() {
               I build and maintain Helm charts, and my open-source chart repository is hosted at:
             </p>
             <p className="text-center font-medium">
-              <a href="https://charts.amitdalal.com" target="_blank" rel="noopener noreferrer" 
-                 className="text-primary hover:underline">
-                charts.amitdalal.com
+              <a 
+                href="https://charts.amitdalal.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center gap-1.5 text-primary hover:underline transition-colors"
+              >
+                View Helm Charts → charts.amitdalal.com
+                <ExternalLink className="h-4 w-4" />
               </a>
-              <span className="text-muted-foreground ml-2">(e.g., hemlingresskit)</span>
             </p>
           </Card>
         </div>
