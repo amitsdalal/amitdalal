@@ -5,12 +5,12 @@ export function ExperienceSection() {
       <div className="container">
         <h2 className="section-title">Experience</h2>
         
-        <div className="max-w-3xl">
+        <div className="max-w-3xl animate-slide-up">
           <div className="timeline-item">
             <div className="timeline-dot" />
-            <h3 className="text-xl font-semibold mb-1">Technical Leadership & Cloud Architecture</h3>
-            <p className="text-muted-foreground mb-4">Various Organizations</p>
-            <p className="mb-4 leading-relaxed">
+            <h3 className="text-xl font-normal mb-2">Technical Leadership & Cloud Architecture</h3>
+            <p className="text-muted-foreground mb-5">Various Organizations</p>
+            <p className="mb-5 leading-relaxed">
               With a strong background in AWS, Linux, and automation frameworks like Ansible, I have successfully led teams to create scalable and sustainable infrastructure solutions. My approach blends technical mastery with mentorship, empowering teams to exceed expectations and innovate continuously.
             </p>
             <p className="leading-relaxed">
