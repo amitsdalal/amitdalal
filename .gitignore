@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +23,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Claude Code / AI agent + MCP artifacts (not part of the project source)
+CLAUDE.md
+.claude/
+.playwright-mcp/
+.mcp.json
+
+# Local Docker dev setup — GitHub Pages serves static dist/, not containers
+Dockerfile
+docker-compose.yml
+.dockerignore

@@ -1,0 +1,41 @@
+# Amit Dalal
+
+> Global DevOps / Cloud / Platform Engineer — remote-first across time zones,
+> currently based in India. Amit automates infrastructure, runs Kubernetes on AWS
+> and GCP, builds CI/CD pipelines, and ships open-source operations tooling.
+> Personal site and résumé: https://amitdalal.com
+
+## About
+
+Amit Dalal is a DevOps and Cloud engineer who works with teams across the globe,
+currently based in India (IST). His work centres on:
+- Designing and operating Kubernetes clusters (Amazon EKS and self-managed).
+- Infrastructure as code with Terraform and Ansible.
+- CI/CD automation with GitHub Actions and GitLab CI.
+- Reliability and observability with Zabbix and Graylog.
+- Edge and security hardening with Cloudflare, nginx, SSH, and TLS.
+- Languages and tooling: Python, Bash, Docker, Helm, Git, MCP.
+
+He maintains a public Helm chart repository at https://charts.amitdalal.com and
+publishes open-source tools on GitHub at https://github.com/amitsdalal.
+
+## Projects
+
+- [sessender](https://pypi.org/project/sessender/): Python package on PyPI for sending email through Amazon SES (plain text, HTML, attachments).
+- [Helm Charts](https://charts.amitdalal.com): Maintained Kubernetes Helm chart repository.
+- [imapsync](https://github.com/amitsdalal/imapsync): imapsync packaged as a Dockerised micro-service for IMAP mailbox migrations.
+- [FlareOps](https://github.com/amitsdalal/FlareOps): Command-line scripts for automating Cloudflare operations.
+- [ssh-key](https://github.com/amitsdalal/ssh-key): Python utility to generate and provision SSH keys.
+- [openssh-9-centos-7](https://github.com/amitsdalal/openssh-9-centos-7): Build modern OpenSSH 9 on legacy CentOS 7.
+
+## Contact
+
+- Email: ping@amitdalal.com
+- GitHub: https://github.com/amitsdalal
+- LinkedIn: https://linkedin.com/in/amitsdalal
+
+## Availability
+
+Takes on a limited number of consulting and advisory engagements with teams
+worldwide — infrastructure reviews, cloud and Kubernetes architecture, CI/CD
+pipelines, and reliability. Reach out to discuss a project or collaboration.

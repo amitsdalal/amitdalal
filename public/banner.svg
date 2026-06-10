@@ -1,15 +1,52 @@
-
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <!-- Soft light background -->
-  <rect width="1200" height="630" fill="#f5f5f7" />
-  
-  <!-- Main text -->
-  <text x="600" y="280" font-family="Imprima, Arial, sans-serif" font-size="60" text-anchor="middle" fill="#1d1d1f">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16161c" />
+      <stop offset="100%" stop-color="#0e0e12" />
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#33c1b3" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#33c1b3" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Dark base + subtle grid + accent glow -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+
+  <!-- Brand accent rail -->
+  <rect x="120" y="232" width="6" height="168" rx="3" fill="#33c1b3" />
+
+  <!-- Availability eyebrow -->
+  <circle cx="160" cy="206" r="5" fill="#33c1b3" />
+  <text x="178" y="212" font-family="Imprima, Arial, sans-serif" font-size="22" fill="#33c1b3" letter-spacing="1.5">
+    OPEN TO CONSULTING &amp; ADVISORY WORK
+  </text>
+
+  <!-- Name -->
+  <text x="158" y="312" font-family="Imprima, Arial, sans-serif" font-size="86" fill="#f5f5f7">
     Amit Dalal
   </text>
-  
-  <!-- Subtitle -->
-  <text x="600" y="350" font-family="Imprima, Arial, sans-serif" font-size="30" text-anchor="middle" fill="#86868b">
-    Cloud Engineer / DevOps / Automation
+
+  <!-- Role -->
+  <text x="158" y="372" font-family="Imprima, Arial, sans-serif" font-size="36" fill="#c9c9d1">
+    DevOps · Cloud · Platform Engineer
+  </text>
+
+  <!-- Global / location -->
+  <text x="158" y="424" font-family="Imprima, Arial, sans-serif" font-size="24" fill="#8a8a95">
+    Global · Remote-first — based in India (IST)
+  </text>
+
+  <!-- Footer URL -->
+  <text x="158" y="540" font-family="Imprima, Arial, sans-serif" font-size="24" fill="#6b6b76">
+    amitdalal.com
+  </text>
+  <text x="1042" y="540" font-family="Imprima, Arial, sans-serif" font-size="24" fill="#6b6b76" text-anchor="end">
+    github.com/amitsdalal
   </text>
 </svg>
