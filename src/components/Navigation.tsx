@@ -30,7 +30,7 @@ export function Navigation() {
             <a
               key={link.name}
               href={link.href}
-              className="text-sm font-normal text-foreground/80 hover:text-primary transition-colors"
+              className="text-sm font-normal text-foreground/80 hover:text-brand transition-colors"
             >
               {link.name}
             </a>
@@ -55,7 +55,7 @@ export function Navigation() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-lg font-normal py-2 hover:text-primary transition-colors"
+                className="text-lg font-normal py-2 hover:text-brand transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.name}
