@@ -1,5 +1,3 @@
-
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
@@ -12,9 +10,8 @@ import { Footer } from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <ThemeToggle />
       <Navigation />
-      
+
       <main>
         <HeroSection />
         <AboutSection />
@@ -23,7 +20,7 @@ const Index = () => {
         <ProjectsSection />
         <ContactSection />
       </main>
-      
+
       <Footer />
     </div>
   );
